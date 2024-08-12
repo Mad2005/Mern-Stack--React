@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.custom-navbar {
+    background-color: #cd2b26;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 10px;
+    margin: 10px;
+}
+h1{
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   
+    
+}
+
+
+.custom-navbar .nav-link {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #cad140;
+}
+.custom-navbar .navbar-brand{
+    color: white;
+    font-weight:500;
+    font-size: 30px;
+}
+#id-img1,#id-img2,#id-img3{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+#nav{
+    padding: 5px;
+}
+
+#id3{
+    border-style:double; 
+    border-width:4px; 
+    padding: 0px;
+    margin-bottom: 30px;
+
+}
+#carouselExampleCaptions{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+    
+}
+#cross1,#cross2,#cross3{
+    
+}
+.img{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+}
+.new {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;         
+    text-align: center;   
+}
+
+@media screen  and (max-width: 768px) {
+    #carouselExampleCaptions{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        
+    }
+}
+#tog{
+    background-color: white;
+    border:none ;
+}
+.carousel{
+padding-top: 0px;
+}
